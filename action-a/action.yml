@@ -10,7 +10,7 @@ inputs:
   SUFFIX:
     description: "Suffix"
     required: true
-    default: "!"
+    default: "."
     
 runs:
   using: "docker"
