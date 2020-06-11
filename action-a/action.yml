@@ -7,7 +7,11 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
-
+  Suffix:
+    description: "Suffix"
+    required: true
+    default: "!"
+    
 runs:
   using: "docker"
   image: "Dockerfile"
